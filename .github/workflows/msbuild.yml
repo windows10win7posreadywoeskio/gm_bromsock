@@ -26,7 +26,7 @@ jobs:
         os: [windows-latest]
         build_type: [Release, release_noSSL]
         fp: [./Source/gm_bromsock]
-        project: [./Source/gm_bromsock/gm_bromsock.vcxproj]
+        project: [gm_bromsock.vcxproj]
         #c_compiler: [gcc, clang, cl]
         #include:
         #  - os: windows-latest
