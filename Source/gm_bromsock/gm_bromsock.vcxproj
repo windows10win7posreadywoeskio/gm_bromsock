@@ -119,9 +119,6 @@ COPY "$(TargetPath)" "$(TargetDir)../../Builds/gmsv_bromsock_win32.dll"</Command
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>COPY "$(TargetPath)" "D:\Software\Steam\steamapps\common\GarrysMod\garrysmod\lua\bin\gmsv_bromsock_win32.dll"
-COPY "$(TargetPath)" "D:\Software\Steam\steamapps\common\GarrysMod\garrysmod\lua\bin\gmcl_bromsock_win32.dll"
-COPY "$(TargetPath)" "$(TargetDir)../../Builds/gmsv_bromsock_win32_nossl.dll"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
