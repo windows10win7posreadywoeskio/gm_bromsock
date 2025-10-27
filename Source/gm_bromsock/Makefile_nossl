@@ -19,7 +19,3 @@ clean:
 
 release:
 	cp gmsv_bromsock_linux_nossl.so ../../Builds/gmsv_bromsock_linux_nossl.dll
-
-install:
-	cp gmsv_bromsock_linux_nossl.so ~/Servers/GarrysMod/garrysmod/lua/bin/gmsv_bromsock_linux_nossl.dll
-	cp gmsv_bromsock_linux_nossl.so ~/Servers/GarrysMod/garrysmod/lua/bin/gmcl_bromsock_linux_nossl.dll
